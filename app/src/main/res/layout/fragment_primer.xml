@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:backgroundTint="#a2d9ce"
+        android:text="Equipo Inmobiliaria"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:backgroundTint="#a2d9ce"
+        android:text="Filtro de barrios"
+        android:textColor="#17202a" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:backgroundTint="#a2d9ce"
+        android:text="Ir a Maps"
+        android:textColor="#17202a" />
+</LinearLayout>
