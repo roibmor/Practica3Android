@@ -19,10 +19,41 @@ class MainActivity: FragmentActivity(){
         //guarda el fragmento de forma programática en un ViewGroup existente.
         val frag: FragmentManager = supportFragmentManager
         frag.beginTransaction().add(R.id.fragmentContainerView, fragment1).commit()
+    }
+}
 
 
 
-        /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
           boton2.setOnClickListener {
               val transaction = supportFragmentManager.beginTransaction()
               val fragmento = fragment3()
@@ -37,10 +68,4 @@ class MainActivity: FragmentActivity(){
               transaction.addToBackStack(null)
               transaction.commit()
           }
-        */
-
-
-    }
-
-
-}
+*/
